@@ -1,4 +1,4 @@
-My name is ***Nataliya Belyaeva.***
+My name is ***Nataliya Belyaeva***
 
 *e-mail:* **mielomanka@mail.ru**
 
@@ -35,3 +35,5 @@ My main education has nothing to do with programming. The first degree is in the
 ---
 
 At this moment I have an elementary level of English
+
+---
