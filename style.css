@@ -48,4 +48,27 @@ h1 {
     padding-left: 50px;
     padding-right: 50px;
 }
+.heading_skills {
+    font-size: 28px;
+    text-align: center;    
+}
+.ul_skills {
+    font-size: 20px;
+    list-style-type: square;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.text_code {
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline;
+}
+.end {
+    background: #958F6F;
+}
+.text_end {
+    font-size: 18px;
+}
+
 
