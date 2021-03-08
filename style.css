@@ -37,3 +37,15 @@ h1 {
 .mail {
     margin-right: 50px;
 }
+.goal {
+    background: #CAC000;
+}
+.text_goal {
+    color: white;
+    font-size: 35px;
+    font-style: inherit;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
