@@ -12,3 +12,28 @@ h1 {
     text-align: center;
     font-size: 48px;
 }
+.info {
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 108px;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.logo {
+    display: block;
+    margin: auto 0;
+}
+.contacts {
+    background: #474733;
+    font-size: 28px;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.mail {
+    margin-right: 50px;
+}
