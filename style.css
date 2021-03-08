@@ -1,17 +1,19 @@
 body {
-    background-color: rgb(238, 231, 243);
+    background-color: #DDD200;
+    
 }
 .wrapper {
-    background-color: white;
-    max-width: 1060px;
+    background-color: #C2C2AD;
+    max-width: 1060px;    
     margin: 0 auto;
     padding: 30px;
 }
 h1 {
     text-align: center;
+    font-size: 48px;
 }
 .info {
-    font-size: 20px;
+    font-size: 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0 108px;
@@ -22,5 +24,76 @@ h1 {
 }
 .logo {
     display: block;
-    margin: 0 auto;
+    margin: auto 0;
 }
+.contacts {
+    background: #474733;
+    font-size: 28px;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.mail {
+    margin-right: 50px;
+}
+.goal {
+    background: #CAC000;
+}
+.text_goal {
+    color: white;
+    font-size: 35px;
+    font-style: inherit;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.heading_skills {
+    font-size: 28px;
+    text-align: center;    
+}
+.ul_skills {
+    font-size: 20px;
+    list-style-type: square;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.text_code {
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline;
+}
+.end {
+    background: #958F6F;
+}
+.text_end {
+    font-size: 18px;
+}
+.social_nav {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.social_pic-git {
+    width: 15%;
+    height: auto;
+    padding-left: 100px;
+}
+.social_pic-rss {
+    width: 25%;
+    height: auto;
+}
+.ul_social_nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+.text_footer_end {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+

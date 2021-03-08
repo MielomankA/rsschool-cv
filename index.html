@@ -8,36 +8,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <h1>My Curriculum vitae</h1>
+    <header class="header">
+        <div class="wrapper">
+            <h1>My Curriculum vitae</h1>
         <div class="info">            
             <span>
-                <p>My name is <i><b>Nataliya Belyaeva</b></i></p>
-                <p><i>e-mail:</i> <b>mielomanka@mail.ru</b></p>
+                My name is <i><b>Nataliya Belyaeva</b></i>
             </span>
             <div class="logo">
                 <img src="logo.png" alt="My logo" width="400" height="400">
-            </div>
-            
-        </div>
-
-
-        <div>
-        <hr>
-        <p>
-                My goal at this stage is to try my skills on this online training. I want to reach the maximum level in training. I believe that one of my strengths is quick learning and I suppose that this project will allow me to check it.
+            </div>  
+        </div>        
+    </header>
+    <section class="contacts wrapper">
+        <ul class="contacts">
+            <li class="mail"><i>e-mail:</i> <b>mielomanka@mail.ru</b></li>
+            <li><i>Discord:</i> <b>MielomankA#2475</b></li>
+        </ul>
+    </section>
+    <main class="goal wrapper">        
+        <p class="text_goal">
+             My goal at this stage is to try my skills on this online training. I want to reach the maximum level in training. I believe that one of my strengths is quick learning and I suppose that this project will allow me to check it.
         </p>
-        <hr>
-        </div>
-
+    </main>
+    <section class="skills wrapper">
         <div class="skills">
-            <p><b>Skills</b></p>
-            <ol>
+            <h3 class="heading_skills"><b>Skills</b></h3>
+            <ul class="ul_skills">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Some knowledge JS</li>
-            </ol>
-            <p><i><b>Code examples:</b></i></p>
+            </ul>
+            <p class="text_code"><i><b>Code examples:</b></i></p>
             <pre>
                 &lt;form class="search-form"&gt;
                     &lt;fieldset class="search-form__wrap"&gt;
@@ -49,22 +51,31 @@
                     &lt;/fieldset&gt;
                 &lt;/form&gt;
             </pre>
-            <hr>
         </div>
-
+    </section>
+    <section class="end wrapper">
         <div class="end">
-            <p>I have no experience in programming.</p>
-            <p>
+            <p class="text_end">I have little experience in programming.</p>
+            <p class="text_end">
                 My main education has nothing to do with programming. The first degree is in the field of agronomy, the second degree is in economics. I was educated at the graduate and post-graduate in agronomy. In the process of my programming education, I took courses SoloLearn, Stepik, studied available Internet resources.
             </p>
             <hr>
-            <p>At this moment I have an elementary level of English</p>
+            <p class="text_end">At this moment I have an elementary level of English</p>
             <hr>
         </div>
-
-
-    </div>
-
-    
+    </section>
+    <footer class="social wrapper">
+        <nav class="social_nav">
+            <div class="social_media">                
+               <ul class="ul_social_nav">
+                    <li class="nav_li"><a href="https://github.com/MielomankA"><img src="github.png" alt="GitHub picture" class="social_pic-git"></a></li>
+                    <li class="nav_li"><a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool picture" class="social_pic-rss"></a></li>
+                </ul>
+            </div>           
+        </nav>
+        <p class="text_footer_end">
+            Copyright &copy; MielomankA, 2021
+        </p>
+    </footer>
 </body>
 </html>
