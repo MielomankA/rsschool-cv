@@ -1,26 +1,14 @@
 body {
-    background-color: rgb(238, 231, 243);
+    background-color: #DDD200;
+    
 }
 .wrapper {
-    background-color: white;
-    max-width: 1060px;
+    background-color: #C2C2AD;
+    max-width: 1060px;    
     margin: 0 auto;
     padding: 30px;
 }
 h1 {
     text-align: center;
-}
-.info {
-    font-size: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 0 108px;
-    align-items: center;
-    margin-bottom: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
-}
-.logo {
-    display: block;
-    margin: 0 auto;
+    font-size: 48px;
 }
