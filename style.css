@@ -1,0 +1,110 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    background-color: #DDD200;    
+}
+h1 {
+    margin: 30px 0;
+}
+.wrapper {
+    background-color: #C2C2AD;
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+.info {
+    font-size: 30px;
+}
+.logo {
+    display: block;
+    margin: auto 0;
+}
+.contacts {
+    background: #474733;
+    font-size: 28px;
+    color: white;
+    list-style-type: none;
+}
+.mail {
+    margin-right: 50px;
+}
+.goal {
+    background: #CAC000;
+}
+.text_goal {
+    color: white;
+    font-size: 35px;
+    font-style: inherit;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.heading_skills {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.ul_skills {
+    font-size: 20px;
+    list-style-type: square;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.text_code {
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.end {
+    background: #958F6F;
+}
+.end_title {
+    margin-right: 30px;
+}
+.text_end {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.social_nav {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.social_pic-git {
+    width: 30%;
+    height: auto;
+    padding-left: 100px;
+}
+.social_pic-rss {
+    width: 25%;
+    height: auto;
+}
+.ul_social_nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+.text_footer_end {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 25px;
+}
